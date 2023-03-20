@@ -1,0 +1,14 @@
+<?php
+
+echo "<h1>Sobre Nós </h1>";
+        echo '<hr>';
+        echo '<p>Controlador: IndexController</p>';
+        echo '<p>Action: sobre_nos</p>';
+        echo '<hr>';
+
+
+        foreach($this->view->dados as $indice => $valor) {
+                echo $valor . '<br>';
+        }
+
+?>

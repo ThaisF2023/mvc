@@ -1,0 +1,17 @@
+
+<?php
+
+echo "<h1>Página Inicial </h1>";
+        echo '<hr>';
+        echo '<p>Controlador: IndexController</p>';
+        echo '<p>Action: index</p>';
+        echo '<hr>';
+
+
+        foreach($this->view->dados as $indice => $valor) {
+                echo $valor . '<br>';
+        }
+        
+?>
+
+
